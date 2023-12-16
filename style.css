@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    height: 100vh;
+    background-image: url(/image/mainbg.jpg);
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+.logo{
+    width: 20%;
+    /* padding: 1% 2%; */
+}
+.logo img{
+    width: 70px;
+    margin-left: 7rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-link{
+    width: 60%;
+}
+.nav-link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link ul li{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.btn{
+    width: 10%;
+}
+.btn input{
+     background-color: blue;
+     color: white;
+     padding: 6% 10%;
+     border: none;
+     border-radius: 1rem;
+     cursor: pointer;
+}
+.model{
+    width: 40%;
+    background-color: beige;
+    margin: 10% auto;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+.model-cover{
+    padding: 2rem;
+    border-radius: 1.2rem;
+    border: 2px solid rgb(82, 82, 82);
+}
+.model h2{
+    font-size: 2rem;
+    /* background-color:blue; */
+}
+#orange{
+    color: rgb(255, 119, 0);
+}
+.model p{
+    padding: auto 2rem;
+    /* background-color: brown; */
+    text-align: center;
+}
+.model button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.main-2{
+    width: 100%;
+}
+.item-main{
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+}
+.item-head{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.item-border{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.item-border img{
+    margin: 0.1rem;
+    width: 15rem;
+}
+.item-heading{
+    text-align: center;
+}
+.item-heading span{
+    color: orange;
+    
+}
+.item-food{
+    padding: 2rem;
+    background-color: rgb(234, 234, 234);
+}
+.item-food-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.food-img{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: auto 1.5rem;
+}
+.food-img img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.recipes{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.recipes-img{
+    width:23rem;
+    padding: 2rem;
+    background-color:  rgb(234, 234, 234);
+    border-radius: 1rem;
+    margin: 1rem 1rem 2rem 2rem;
+}
+.recipes-img img{
+    /* margin: 0.1rem; */
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+.count{
+    width: 100%;
+    margin: auto;
+}
+.num-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.num-btn button{
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.3rem;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(215, 215, 215);
+}
+#gray1,#gray3{
+    background-color: rgb(166, 166, 166);
+}
+#gray2{
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.item-main3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5rem 5rem; */
+    width: 88%;
+    margin: 5rem auto;
+}
+.viewmore-btn button{
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(1, 1, 150);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+.row-1{
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+}
+.col-1{
+    width: 40%;
+    margin: auto 2rem;
+}
+.col-1-img{
+    width: 100%;
+}
+.col-1-img img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.col-1-text{
+    margin: 1rem 0.5rem;
+}
+.col-1-text h3{
+    color: rgb(30, 30, 30);
+}
+#date{
+    color: rgb(81, 81, 81);
+}
+.col-2{
+    width: 50%;
+}
+.sub-row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* background-color: aqua; */
+}
+.sub-col-1{
+    width: 40%;
+}
+.sub-col-1 img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.col-2-text{
+    width: 60%;
+    margin: auto 2rem;
+}
+.recipes-img2{
+    width:23rem;
+    padding: 2rem;
+    background-color:  rgba(222, 222, 222, 0.501);
+    border-radius: 1rem;
+    margin: 1rem 1rem 2rem 2rem;
+}
+.recipes-img2 img{
+    /* margin: 0.1rem; */
+    width: 20rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+/* .item-head3{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.item-border3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.item-border3 img{
+    margin: 0.1rem;
+    width: 15rem;
+}
+.item-heading3{
+    text-align: center;
+}
+.item-heading3 span{
+    color: orange;
+} */
+.subscription{
+    background-color: rgb(244, 244, 244);
+}
+.sweet-content{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.email-btn{
+    width: 60%;
+    display: flex;    
+    justify-content: center;
+    margin: 1rem auto;
+    /* align-items: center; */
+    /* background-color: rgb(255, 255, 255); */
+}
+#email{
+    background-color: white;
+    width: 60%;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+#email:focus{
+    outline: none;
+}
+#btn{
+    background-color: rgb(255, 119, 0);
+    border: none;
+    padding: 0.6rem 1rem;
+    color: white;
+    border-radius: 0 1.5rem 1.5rem 0;
+    /* margin: auto 0rem; */
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox p{
+    margin: auto 1rem;
+}
+
+
+
+
+
+
+
